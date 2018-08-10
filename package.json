@@ -1,0 +1,20 @@
+{
+  "name"         : "node-web-scrape",
+  "version"      : "0.0.1",
+  "description"  : "Scrape",
+  "scripts": {
+    "start": "node scrapper.js"
+  },
+  "main"         : "scrapper.js",
+  "author"       : "Shiv",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+	"regex" 	 : "latest", 
+	"async"      : "latest",
+    "body-parser" : "latest",
+    "request"    :  "latest",
+	"xml2json"   : "latest"
+  }
+}
